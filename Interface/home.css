@@ -1,0 +1,39 @@
+/*General*/
+body {
+	font-family: 'Roboto Slab';
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+/*Header*/
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ffcc00;
+	padding: 10px;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+header nav ul li {
+	text-decoration: none;
+	margin: 10px 10px 10px 15px;
+	font-family: "Roboto Slab", serif;
+}
+
+form {
+	margin: 0px 5px 0px 0px;
+}
